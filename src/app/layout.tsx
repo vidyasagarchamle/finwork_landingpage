@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Vidyasagar Chamle" }],
   creator: "Vidyasagar Chamle",
   publisher: "Finwork",
+  metadataBase: new URL("https://finwork-landing.vercel.app"),
+  alternates: {
+    canonical: "https://finwork-landing.vercel.app"
+  },
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
@@ -29,17 +33,26 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Finwork - AI-Powered CA Practice Management",
-    description: "Streamline your chartered accountancy practice with intelligent automation, client management, and comprehensive tax solutions.",
+    description: "Streamline your chartered accountancy practice with intelligent automation, client management, and comprehensive tax solutions. Built specifically for modern CA firms.",
     url: "https://finwork-landing.vercel.app",
     siteName: "Finwork",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/mail2.webp",
+        width: 1355,
+        height: 776,
+        alt: "Finwork CA Practice Management Dashboard"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Finwork - AI-Powered CA Practice Management",
-    description: "Streamline your chartered accountancy practice with intelligent automation, client management, and comprehensive tax solutions.",
-    creator: "@vidyasagarchamle"
+    description: "Streamline your chartered accountancy practice with intelligent automation, client management, and comprehensive tax solutions. Built specifically for modern CA firms.",
+    creator: "@vidyasagarchamle",
+    images: ["/mail2.webp"]
   },
   robots: {
     index: true,
