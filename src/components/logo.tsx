@@ -60,7 +60,7 @@ export const Logo = ({ className, uniColor }: { className?: string; uniColor?: b
             </svg>
             
             {/* Finwork Text */}
-            <span className="text-xl font-bold tracking-tight text-foreground">
+            <span className="text-xl font-bold tracking-tight text-foreground transform -translate-y-0.5">
                 Finwork
             </span>
         </div>
@@ -179,7 +179,7 @@ export const LogoStroke = ({ className }: { className?: string }) => {
             </svg>
             
             {/* Finwork Text */}
-            <span className="text-xl font-bold tracking-tight text-foreground">
+            <span className="text-xl font-bold tracking-tight text-foreground transform -translate-y-0.5">
                 Finwork
             </span>
         </div>
